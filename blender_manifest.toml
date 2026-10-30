@@ -1,13 +1,16 @@
 schema_version = "1.0.0"
 
-id = "maze"
-version = "1.0.0"
+id = "tfmstyle_maze"
+version = "1.0.1"
 name = "TFMSTYLE - Maze"
 tagline = "Generate parametric maze"
 maintainer = "The French Monkey"
 license = ["SPDX:GPL-3.0-or-later"]
+copyright = ["2025-2026 The French Monkey"]
 type = "add-on"
 blender_version_min = "4.2.0"
 
 website = "https://tfmstyle.com"
 
+[build]
+paths = ["__init__.py", "LICENSE"]
